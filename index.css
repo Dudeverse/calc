@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    border: 5px solid black;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+}
+
+.screen {
+    display: flex;
+    border: 2px solid red;
+    justify-content: flex-end;
+}
+.button-grid {
+    display: flex;
+    border: 2px solid green;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 10px;
+    width: 50%;
+}
